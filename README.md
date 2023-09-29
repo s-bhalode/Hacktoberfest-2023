@@ -37,6 +37,7 @@ git checkout -b your-name-branch
     username: "https://github.com/s-bhalode",
 }
 ```
+✔ Add your changes
 ```markdown
 git add .
 ```

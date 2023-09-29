@@ -10,7 +10,7 @@
 ✔ Fork this repo.<br/>
 ✔ Clone on your local machine<br/>
 ```terminal
-https://github.com/s-bhalode/Hacktoberfest_starter_2k23.git
+git clone https://github.com/s-bhalode/Hacktoberfest_starter_2k23.git
 ```
 ✔ Navigate to project directory.
 ```terminal

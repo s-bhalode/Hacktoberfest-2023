@@ -2,8 +2,8 @@
 
 ## Contributors 👩‍💻👨‍💻
 <div align="center">
-  <a href="https://github.com/s-bhalode/Hacktoberfest_starter_2k23/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=s-bhalode/Hacktoberfest_starter_2k23" />
+  <a href="https://github.com/s-bhalode/Hacktoberfest-2023/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=s-bhalode/Hacktoberfest-2023" />
   </a>
 </div>
 

@@ -29,9 +29,9 @@ cd Hacktoberfest_starter_2k23
 ```markdown
 git checkout -b your-name-branch
 ```
-✔ Create new file with your name in `contributors/participants`
+✔ Create new readme.md file with your name at the following path
 ```markdown
-simran.md
+constributors/participants/yourName.md
 ```
 ✔ Add your details in the newly created file `contributors/participants/yourName.md`
 ```markdown
@@ -76,4 +76,5 @@ git remote -v
 git merge upstream/master
 ```
 
+✔ Do follow this account <br/>
 

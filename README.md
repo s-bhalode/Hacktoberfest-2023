@@ -29,14 +29,21 @@ cd Hacktoberfest_starter_2k23
 ```markdown
 git checkout -b your-name-branch
 ```
-✔ Add your Name to `participants/contributorsList.js`
+✔ Create new file with your name in `contributors/participants`
 ```markdown
-{
-    id: 1,
-    fullname: "Simran Bhalode",
-    username: "https://github.com/s-bhalode",
-}
+simran.md
 ```
+✔ Add your details in the newly created file `contributors/participants/yourName.md`
+```markdown
+Name : Your name <br/>
+Email : your email <br/>
+Institution Name : your institution name <br/>
+Github url : your username <br/>
+Skills : your skills (optional) <br/>
+
+About (short introduction)<br/>
+```
+
 ✔ Add your changes
 ```markdown
 git add .

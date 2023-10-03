@@ -1,9 +1,9 @@
-# Hacktoberfest_starter_2k23 ➡ First Pull Request 🌟🌟🌟
+# 🎃Hacktoberfest_starter_2k23 ➡ First Pull Request 🌟🌟🌟
 
 ## Contributors 👩‍💻👨‍💻
 <div align="center">
-  <a href="https://github.com/s-bhalode/Hacktoberfest_starter_2k23/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=s-bhalode/Hacktoberfest_starter_2k23" />
+  <a href="https://github.com/s-bhalode/Hacktoberfest-2023/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=s-bhalode/Hacktoberfest-2023" />
   </a>
 </div>
 
@@ -29,14 +29,21 @@ cd Hacktoberfest_starter_2k23
 ```markdown
 git checkout -b your-name-branch
 ```
-✔ Add your Name to `participants/contributorsList.js`
+✔ Create new readme.md file with your name at the following path
 ```markdown
-{
-    id: 1,
-    fullname: "Simran Bhalode",
-    username: "https://github.com/s-bhalode",
-}
+constributors/participants/yourName.md
 ```
+✔ Add your details in the newly created file `contributors/participants/yourName.md`
+```markdown
+Name : Your name <br/>
+Email : your email <br/>
+Institution Name : your institution name <br/>
+Github url : your username <br/>
+Skills : your skills (optional) <br/>
+
+About (short introduction)<br/>
+```
+
 ✔ Add your changes
 ```markdown
 git add .
@@ -69,4 +76,5 @@ git remote -v
 git merge upstream/master
 ```
 
+✔ Do follow this account <br/>
 

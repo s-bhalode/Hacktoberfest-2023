@@ -20,7 +20,21 @@ cd Hacktoberfest_starter_2k23
 ```markdown
 git checkout -b your-name-branch
 ```
-✔ Add your Name to `contributors/contributorsList.js`
+✔ Create new readme.md file with your name at the following path
+```markdown
+constributors/participants/yourName.md
+```
+✔ Add your details in the newly created file `contributors/participants/yourName.md`
+```markdown
+Name : Your name <br/>
+Email : your email <br/>
+Institution Name : your institution name <br/>
+Github url : your username <br/>
+Skills : your skills (optional) <br/>
+
+About (short introduction)<br/>
+```
+✔ Add your changes
 ```markdown
 git add .
 ```

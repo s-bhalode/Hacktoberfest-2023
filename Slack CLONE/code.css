@@ -4,7 +4,7 @@ body{
 #logo-head{
     width: 105px;
     margin-bottom: -5px;
-    
+    cursor: pointer;
 }
 #head-search{
     width: 25px;
@@ -13,9 +13,28 @@ body{
 #head-txt{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 17px;
-    font-weight: 120px;
+    font-weight: bold;
     color: white;
+    cursor: pointer;
+    position: relative;
 }
+#head-txt:after{
+background: none repeat scroll 0 0 transparent;
+    bottom:-5px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+#head-txt:hover:after{
+    width: 100%;
+    left: 0;
+}
+
 #head-button-1{
     padding: 13.5px;
     border-color:#ffffff;
@@ -24,6 +43,12 @@ body{
     color: #ffffff;
     font-weight: 500;
     font-size: 12px;
+    cursor: pointer;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+#head-button-1:hover{
+ border: 2px solid #ffffff;
+ transition: 1s;
 }
 #head-button-2{
     padding: 15px;
@@ -32,6 +57,7 @@ body{
     color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 11px;
+    cursor: pointer;
 }
 #blue-label{
     background-color: rgb(63, 107, 200);

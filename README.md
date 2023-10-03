@@ -1,5 +1,4 @@
 # 🎃Hacktoberfest_starter_2k23 ➡ First Pull Request 🌟🌟🌟
-[![An image of @mshubham18's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mshubham18)](https://holopin.io/@mshubham18)
 ## Contributors 👩‍💻👨‍💻
 <div align="center">
   <a href="https://github.com/s-bhalode/Hacktoberfest-2023/graphs/contributors">

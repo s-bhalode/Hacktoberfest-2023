@@ -1,0 +1,175 @@
+
+ /*Global styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top:10px;
+    background-color:#bdd2b6;
+    font-family: 'Lato', sans-serif;
+    color: rgb(47, 63, 63);
+}
+.container{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    margin-top: 2rem;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+}
+.fas{
+    margin-right: 0.3rem;
+}
+
+/*end of gloabal style*/
+
+
+/*form style*/
+
+.heading h1{
+    text-align: center;
+    padding-block: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+label{
+    display: block;
+    font-size: .6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.form input,
+.form select{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: inherit;
+    cursor: pointer;
+}
+.form select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+    background-color: white;
+    background: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.form select option {
+    text-transform: capitalize;
+}
+.hover:focus,
+.hover:hover{
+    background-color: #DDDDDD;
+}
+.hover{
+    padding: .5rem 1rem;
+}
+.category-date-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.category, .date{
+    width: 50%;
+    border-right: 1px solid lightgray;
+}
+
+.border-bottom{
+    border-bottom: 1px solid lightgray;
+}
+
+/* End of form style*/
+
+/* Actions Buttons */
+.action{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.btn{
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    background-color: white;
+    outline: none;
+    border: none;
+    margin-right: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+.add{
+    background-color: #444444;
+}
+.delete{
+    background-color: #EE341E;
+    padding: 0.5rem;
+}
+/* End Actions Buttons */
+
+
+
+
+
+/*Todos style*/
+
+.task{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+.task  input{
+    margin-right: 1rem;
+}
+.task .task-detail{
+    font-size: .8rem;
+    max-width: 20rem;
+    letter-spacing: .5px;
+}
+.task .due-date{
+    font-size: .6rem;
+    margin-top: 0.5rem;
+    color: gray;
+
+}
+.task .task-category{
+    margin-left: auto;
+    color: white;
+    height: 1.8rem;
+    width: 5rem;
+    text-align: center;
+    padding: .5rem 1rem;
+    font-size: .6rem;
+    text-transform: uppercase;
+}
+.task .delete-task a{
+    color: darkslategray;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+.task .delete-task a:active{
+    color: darkslategray;
+}
+.task .delete-task a:hover,
+.task .delete-task a:focus{
+    color: crimson;
+}
+
+/* Task Categgory */
+.work{
+    background-color: #9C01AE;
+}
+.school{
+    background-color: #F3A700;
+}
+.personal{
+    background-color: crimson;
+}
+.cleaning{
+    background-color: #32cd32;
+}
+.other{
+    background-color:#28527a;
+}
+
+/*End of Todos style*/

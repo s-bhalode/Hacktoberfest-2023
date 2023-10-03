@@ -23,7 +23,7 @@ git clone https://github.com/s-bhalode/Hacktoberfest-2023.git
 ```
 ✔ Navigate to project directory.
 ```terminal
-cd Hacktoberfest_starter_2k23
+cd Hacktoberfest-2023
 ```
 ✔ Create a new branch 
 ```markdown

@@ -4,7 +4,7 @@ body{
 #logo-head{
     width: 105px;
     margin-bottom: -5px;
-    
+    cursor: pointer;
 }
 #head-search{
     width: 25px;
@@ -15,7 +15,12 @@ body{
     font-size: 17px;
     font-weight: 120px;
     color: white;
+    cursor: pointer;
 }
+#head-txt:hover{
+    color: yellow;
+}
+
 #head-button-1{
     padding: 13.5px;
     border-color:#ffffff;
@@ -24,6 +29,7 @@ body{
     color: #ffffff;
     font-weight: 500;
     font-size: 12px;
+    cursor: pointer;
 }
 #head-button-2{
     padding: 15px;
@@ -32,7 +38,10 @@ body{
     color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 11px;
+    cursor: pointer;
+
 }
+
 #blue-label{
     background-color: rgb(63, 107, 200);
     color: aliceblue;

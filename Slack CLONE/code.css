@@ -16,6 +16,11 @@ body{
     font-weight: 120px;
     color: white;
 }
+
+#head-txt:hover {
+    cursor: pointer;
+}
+
 #head-button-1{
     padding: 13.5px;
     border-color:#ffffff;
@@ -45,12 +50,23 @@ body{
     margin:auto;
     text-align: center;
 }
+
+.lets-go:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.856);
+}
+
 #cross-btn{
     background-color: rgba(0, 0, 0, 0);
     border: 0px;
     color: white;
     font-size: 20px;
 }
+
+#cross-btn:hover{
+    cursor: pointer;
+}
+
 #sec-left{
     position: fixed;
     width: 50%;
@@ -102,6 +118,12 @@ body{
     width: 270px;
     border-color: rgba(245, 245, 220, 0);
 }
+
+#car-btn-1:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+
 #blue-label-text{
     padding-top: 570px;
     color:white;
@@ -120,6 +142,12 @@ body{
     align-items: center;
     width: 270px;
 }
+
+#car-btn-2:hover{
+    background-color: rgb(40, 68, 129);
+    cursor: pointer;
+}
+
 #car-2-btn-text{
     margin-top: 5px;
     color: white;
@@ -187,7 +215,7 @@ body{
 }
 #table-4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 80px;
+    padding: 20px;
     padding-bottom:0px;
 }
 #left-carou-five{

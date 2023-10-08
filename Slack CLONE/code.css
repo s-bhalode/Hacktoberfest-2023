@@ -65,7 +65,7 @@ body {
 #left-most {
   background-color: #541554;
   float: left;
-  width: 10%;
+  width: 5%;
   height: 459px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -78,7 +78,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   padding-top: 0px;
   padding-bottom: 25px;
 }
@@ -184,7 +184,7 @@ body {
 }
 #table-3 {
   font-size: 80px;
-  padding: 150px;
+  padding: 60px;
   padding-top: 0px;
   padding-bottom: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -195,6 +195,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 80px;
   padding-bottom: 0px;
+  text-align: center;
 }
 #left-carou-five {
   float: left;

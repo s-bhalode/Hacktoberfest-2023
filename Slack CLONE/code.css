@@ -228,3 +228,24 @@ body {
 #right-four-carou {
   margin-left: 800px;
 }
+.footer-box{
+  height:100px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-right: 5px;
+  justify-content: space-around;
+}
+.socialmedia{
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  
+}
+.icons a{
+  padding: 4px;
+  margin-left: 5px;
+}
+.Copyright{
+  font-size: 0.9rem;
+}

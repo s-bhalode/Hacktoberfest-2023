@@ -239,7 +239,7 @@ body {
 .socialmedia{
   display: flex;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   
 }
 .icons a{
@@ -247,5 +247,5 @@ body {
   margin-left: 5px;
 }
 .Copyright{
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }

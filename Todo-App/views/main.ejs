@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>
+        <%= title %>
+    </title>
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Css for todo -->
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+
+<body>
+    <!-- Container -->
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="heading border-bottom">
+            <h1>TODO App</h1>
+        </div>
+        <!-- End Heading -->
+
+        <!-- Form for creating Todo -->
+        <div class="form-container">
+            <form action="/create-task" class="form" id="create-form" method="POST">
+                <div class="description hover border-bottom">
+                    <label for="description">Description</label>
+                    <input type="text" name="description" id="#description" placeholder="What do you need to do?"
+                        required>
+                </div>
+                <div class="category-date-container border-bottom">
+                    <div class="category hover">
+                        <label for="category">Category</label>
+                        <select name="category" id="#category" required>
+                            <option value="">Choose a category</option>
+                            <option value="work">work</option>
+                            <option value="school">school</option>
+                            <option value="personal">personal</option>
+                            <option value="other">other</option>
+                        </select>
+                    </div>
+
+                    <div class="date hover">
+                        <label for="date">Due Date</label>
+                        <input type="date" name="date" id="#date" required>
+                    </div>                   
+                </div>
+
+            </form>
+        </div>
+        <!-- End Form for creating Todo -->
+
+        <!-- Actions .i.e Create and Delete Buttons -->
+        <div class="action border-bottom">
+            <!--adding add button-->
+            <button class="btn add" type="submit" form="create-form">
+                <i class="fas fa-plus"></i> Add Task
+            </button>
+            <!--adding delete button-->
+            <button class="btn delete" type="submit" form="delete-form">
+                <i class="fas fa-trash-alt"></i> Delete Tasks
+            </button>
+        </div>
+        <!-- End Actions .i.e Create and Delete Buttons -->
+
+        <!-- TOdos Conrainer -->
+        <div class="tasks-container">
+            <form action="/delete-task" method="post" id="delete-form">
+                <% for(let task of tasks){ %>
+                <div class="task border-bottom">
+                    <input type="checkbox" name="task" value="<%= task._id %>" >
+                    <div class="task-detail">
+                        <p class="desc"><%= task.description %></p>
+                        <span class="due-date">
+                            <i class="fas fa-calendar"></i> <%= task.dueDate.toLocaleDateString("en-US", { year: 'numeric', month: 'short', day: 'numeric' }) %>
+                        </span>
+                    </div>
+                    <div class="task-category <%= task.category %>">
+                        <%= task.category %>
+                    </div>
+                    <div class="delete-task">
+                        <a href="/delete-task/<%= task._id %>"><i class="fas fa-trash"></i></a>
+                    </div>
+                </div>
+                <% } %>
+            </form>
+        </div>
+        <!-- End TOdos Conrainer -->
+
+    </div>
+    <!-- End Container -->
+
+</body>
+
+</html>
